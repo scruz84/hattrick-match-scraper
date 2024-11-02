@@ -1,0 +1,8 @@
+/hattrick-match-scraper.iml
+/.idea/
+match_sample.json
+/ht_matches.db
+scraper/__pycache__
+/ht_scraper.log
+/.ht_scraper_local.env
+/.ht_scraper.env
