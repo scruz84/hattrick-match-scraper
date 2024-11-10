@@ -38,7 +38,7 @@ class Scrapper:
         self.interval = 0.5 if interval=='' or interval is None else float(interval)
         self.start_match_id = None if start_match_id=='' or start_match_id is None else int(start_match_id)
         self.number_matches = 1000 if number_matches=='' or number_matches is None else int(number_matches)
-        self.up = True if up=='' or up is None else bool(up)
+        self.up = True if up=='true' or up is None or up == '' else False
         self.auto = False if auto=='false' else True
         self.data_access = DataAccess()
 
