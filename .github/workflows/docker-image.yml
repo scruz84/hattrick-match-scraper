@@ -27,4 +27,4 @@ jobs:
               with:
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ${{ secrets.DOCKER_USER }}/smp-server:$(date +%Y).$(date +%m)
+                  tags: ${{ secrets.DOCKER_USER }}/smp-server:$(date +%Y)$(date +%m)
